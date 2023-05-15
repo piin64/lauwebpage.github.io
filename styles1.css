@@ -57,7 +57,3 @@ ul{
 .box li a:hover{
   color: #b9b9b9;
 }
-function toggleDarkMode() {
-  const body = document.body;
-  body.classList.toggle("dark-mode");
-}
