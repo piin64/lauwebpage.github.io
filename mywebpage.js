@@ -29,6 +29,10 @@ function toggleSocialMedia() {
   }
 }
 
+function forwardTo(url) {
+  window.location.href = url;
+}
+
 window.onscroll = function() {
     var scrollToTopButton = document.getElementById("scroll-to-top");
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
